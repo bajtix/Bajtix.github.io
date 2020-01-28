@@ -1,0 +1,29 @@
+h1
+{
+  font-size: 60px;
+}
+h2
+{
+  margin-top: 0px;
+}
+div
+{
+  border: solid green 2px;
+  padding: 5px;
+}
+.head
+{
+  background-color: green;
+  color: black;
+}
+body
+{
+  color: green;
+  font-family: consolas;
+  background-color: black;
+  text-align: center;
+}
+a
+{
+  color: darkgreen;
+}
