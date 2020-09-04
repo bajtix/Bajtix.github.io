@@ -1,0 +1,28 @@
+//programmer, 3d artist, proffesional twohead
+//i know what i'm doing (i think)
+//it should work now
+//this color sheme is s̶t̶o̶l̶e̶n̶ ̶f̶r̶o̶m̶ based on VS Code's
+//javascript sucks
+//hope it works this time...
+//i have no idea why but otherwise it wouldn't work
+//fun fact: i have some unpublished projects that i'm too lazy to finish
+//unpopular opinion: C# > Java
+//please use Maven and not Gradle, thanks.
+//fun fact: i'm writing a lot of motds RN.
+//noo you can't have the text change! 
+//haha text go brrrrrr
+//i really should focus on getting the page to work instead of writing this
+//forgot the ;
+//used to do nothing but still required
+//insert joke
+//CSS is your friend
+//wow that was really cool
+//TODO: make it work idk how
+//fun fact: a lot of those texts you can see here are actual comments in my code.
+//developing useless stuff
+//don't remove, won't work without it
+//TODO: oh god oh please rewrite this section
+#how do i python?
+#gosh those # comments are annoying, why not use //
+#where is the ;
+//never trust float: left;

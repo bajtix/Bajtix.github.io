@@ -1,3 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 h1 {
     font-size: 66px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+body {
+    background-color: #1E1E1E;
+    color: #DBFFF1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#body {
+    text-align: center;
+    width: 100%;
+}
+
+#content {
+    display: inline-block;
+    text-align: left;
+    width: 90%;
+}
+
+#header {
+    text-align: left;
+    background-color: #252526;
+    width: 99%;
+    height: 100px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+
+#portfolio {
+    width: 100%;
+    text-align: center;
+}
+
+#projects {
+    margin: 10px;
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    width: auto;
+    overflow: auto;
+}
+
+.project-element {
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    background-color: #252526;
+    text-align: left;
+    margin: 5px;
+}
+
+.project-element h3 {
+    font-size: 25px;
+}
+
+.project-element :not(.project-image) {
+    margin-left: 5px;
+}
+
+.project-image {
+    width: 500px;
+    height: 400px;
+}
+
+#motd {
+    color: #6A9955;
+    font-size: 28px;
+}
+
+.nostyle {
+    clear: both;
 }
