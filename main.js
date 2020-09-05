@@ -4,6 +4,9 @@ const projectItemT = `<div class="project-element hvr-grow">
 <img class="project-image" src="{img}" alt="">
 <h3>{name}</h3>
 <p>{about}</p>
+<a style='float: right; display:inline;' href=''>Source Code</a>
+<br>
+<a style='float: right; display:inline;' href=''>More</a>
 </div>`;
 
 
@@ -31,6 +34,21 @@ function loadMotds() {
     setInterval(function() {
         nextMotd(50);
     }, 20000);
+}
+
+function loadProjects() {
+    projects = `{"projects":[{"name":"Project1","desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel.","img":"img"},{"name":"Project2","desc":"desc","img":"img"}]}`; //load from file
+    pdata = JSON.parse(projects);
+
+    console.log(pdata.projects.length);
+
+    for (i = 0; i < pdata.projects.length; i++) {
+        formatted = projectItemT
+            .replace(/{name}/g, pdata.projects[i].name)
+            .replace(/{about}/g, pdata.projects[i].desc)
+            .replace(/{img}/g, pdata.projects[i].img);
+        document.getElementById("projects").innerHTML = document.getElementById("projects").innerHTML + formatted;
+    }
 }
 
 function nextMotd(w) {
