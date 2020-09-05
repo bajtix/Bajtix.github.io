@@ -1,5 +1,11 @@
 var motds = [];
 
+const projectItemT = `<div class="project-element hvr-grow">
+<img class="project-image" src="{img}" alt="">
+<h3>{name}</h3>
+<p>{about}</p>
+</div>`;
+
 
 function readTextFile(file) {
     var rawFile = new XMLHttpRequest();
@@ -23,13 +29,13 @@ function loadMotds() {
     motdlist = readTextFile("content/motd.txt");
     motds = motdlist.split('\n');
     setInterval(function() {
-        nextMotd();
+        nextMotd(50);
     }, 20000);
 }
 
-function nextMotd() {
+function nextMotd(w) {
     r = Math.floor(Math.random() * motds.length);
-    printText(motds[r], "motd", 50);
+    printText(motds[r], "motd", w);
 }
 
 function printText(text, elementId, speed) {

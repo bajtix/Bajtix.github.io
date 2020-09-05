@@ -15,7 +15,7 @@
 //forgot the ;
 //used to do nothing but still required
 //insert joke
-//CSS is your friend
+/*CSS is your friend*/
 //wow that was really cool
 //TODO: make it work idk how
 //fun fact: a lot of those texts you can see here are actual comments in my code.
@@ -25,4 +25,7 @@
 #how do i python?
 #gosh those # comments are annoying, why not use //
 #where is the ;
-//never trust float: left;
+/*never trust float: left; */
+/*css is cool and all, but have you ever heard of {insert something}?*/
+/*why css no support // :( */
+//if you click this text, it will change
