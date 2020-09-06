@@ -4,9 +4,8 @@ const projectItemT = `<div class="project-element hvr-grow">
 <img class="project-image" src="{img}" alt="">
 <h3>{name}</h3>
 <p>{about}</p>
-<a style='float: right; display:inline;' href=''>Source Code</a>
-<br>
-<a style='float: right; display:inline;' href=''>More</a>
+<a class="highlight-btn" style='position: absolute; right:2px; bottom: 50px;' href='{main}'><img src='content/image/more.png' width='46px' height='46px'/></a>
+<a class="highlight-btn" style='position: absolute; right:2px; bottom: 2px;' href='{source}'><img src='content/image/github.png' width='46px' height='46px'/></a>
 </div>`;
 
 
@@ -37,7 +36,7 @@ function loadMotds() {
 }
 
 function loadProjects() {
-    projects = `{"projects":[{"name":"Project1","desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel.","img":"img"},{"name":"Project2","desc":"desc","img":"img"}]}`; //load from file
+    projects = readTextFile("content/projects.json");
     pdata = JSON.parse(projects);
 
     console.log(pdata.projects.length);
@@ -46,7 +45,9 @@ function loadProjects() {
         formatted = projectItemT
             .replace(/{name}/g, pdata.projects[i].name)
             .replace(/{about}/g, pdata.projects[i].desc)
-            .replace(/{img}/g, pdata.projects[i].img);
+            .replace(/{img}/g, pdata.projects[i].img)
+            .replace(/{source}/g, pdata.projects[i].source)
+            .replace(/{main}/g, pdata.projects[i].main);
         document.getElementById("projects").innerHTML = document.getElementById("projects").innerHTML + formatted;
     }
 }

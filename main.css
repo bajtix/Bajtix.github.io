@@ -110,3 +110,13 @@ body {
 .nostyle {
     clear: both;
 }
+
+.highlight-btn {
+    filter: brightness(80%);
+    -webkit-filter: brightness(80%);
+}
+
+.highlight-btn :hover {
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);
+}
