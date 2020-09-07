@@ -22,7 +22,7 @@
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
     transform: translateZ(-10);
-    box-shadow: 0 0 60px rgba(0, 0, 0, 40);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 40);
     position: relative;
     z-index: 999;
 }
@@ -55,9 +55,12 @@ body {
 #header {
     text-align: left;
     background-color: #252526;
-    width: 99%;
+    width: 100%;
     height: 100px;
     padding-bottom: 30px;
+}
+
+#header * {
     padding-left: 10px;
 }
 
@@ -73,6 +76,12 @@ body {
     align-items: center;
     width: auto;
     overflow: visible;
+}
+
+#footer {
+    background-color: #252526;
+    height: 100px;
+    margin-top: 40px;
 }
 
 .project-element {
@@ -112,11 +121,13 @@ body {
 }
 
 .highlight-btn {
-    filter: brightness(80%);
-    -webkit-filter: brightness(80%);
+    opacity: 1;
+}
+
+.highlight-btn2 {
+    opacity: 0.4;
 }
 
 .highlight-btn :hover {
-    filter: brightness(100%);
-    -webkit-filter: brightness(100%);
+    opacity: 2;
 }

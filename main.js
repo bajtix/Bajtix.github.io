@@ -1,11 +1,11 @@
 var motds = [];
 
 const projectItemT = `<div class="project-element hvr-grow">
-<img class="project-image" src="{img}" alt="">
+<a href='{main}'><img class="project-image" src="{img}" alt=""></img></a>
 <h3>{name}</h3>
 <p>{about}</p>
-<a class="highlight-btn" style='position: absolute; right:2px; bottom: 50px;' href='{main}'><img src='content/image/more.png' width='46px' height='46px'/></a>
-<a class="highlight-btn" style='position: absolute; right:2px; bottom: 2px;' href='{source}'><img src='content/image/github.png' width='46px' height='46px'/></a>
+<a class="highlight-btn" style='position: absolute; right:2px; bottom: 50px;' href='{main}'><img class="highlight-btn2" src='content/image/more.png' width='46px' height='46px'/></a>
+<a class="highlight-btn" style='position: absolute; right:2px; bottom: 2px;' href='{source}'><img class="highlight-btn2" src='content/image/github.png' width='46px' height='46px'/></a>
 </div>`;
 
 
