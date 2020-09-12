@@ -103,12 +103,14 @@ body {
 }
 
 .project-element p {
-    width: 400px;
+    width: 420px;
+    font-size: 14px;
 }
 
 .project-image {
     width: 500px;
     height: 400px;
+    margin-left: -5px;
 }
 
 #motd {

@@ -1,9 +1,59 @@
 {
     "projects": [{
-        "name": "Some Project Name",
-        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut elementum velit. Fusce erat nibh, malesuada quis ultricies nec, mattis at orci. Integer sit amet porttitor nunc.",
-        "img": "content/image/missing.png",
-        "main": "http://youtube.com",
-        "source": "http://google.com"
-    }]
+            "name": "Some Project Name",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut elementum velit. Fusce erat nibh, malesuada quis ultricies nec, mattis at orci. Integer sit amet porttitor nunc.",
+            "img": "content/image/missing.png",
+            "main": "http://youtube.com",
+            "source": "http://google.com",
+            "type": "app"
+        },
+        {
+            "name": "Time Slicer",
+            "desc": "Time Slicer is a game I am currently working on together with WalkanFL. It was created for the Brackeys Game Jam 2020.2, but has been evolving since and updates are coming soon.",
+            "img": "content/image/project/time-slicer.png",
+            "main": "https://bajtix.itch.io/time-slicer",
+            "source": "https://github.com/Bajtix/brackeysJam2020.2",
+            "type": "game"
+        },
+        {
+            "name": "SimpleHTML",
+            "desc": "A small web project written in JS. It's goal was to create a simple HTML editor with live preview, ideal for begginners. It includes: Live preview, Theme customization (code) and Syntax Highlighting",
+            "img": "content/image/project/simplehtml.png",
+            "main": "http://bajtix.github.io/simplehtml",
+            "source": "https://github.com/Bajtix/brackeysJam2020.2",
+            "type": "app"
+        },
+        {
+            "name": "The Starving Monk",
+            "desc": "My first GameJam submission, ever. Made for LD 43.",
+            "img": "content/image/project/starving-monk.png",
+            "main": "https://bajtix.itch.io/a-starving-monk",
+            "source": "https://github.com/Bajtix/starving-monk",
+            "type": "game"
+        },
+        {
+            "name": "KARD",
+            "desc": "A submission to LD 44, made together with Snajper1212 and Samgus. A terrible platformer, mostly because of the lack of time.",
+            "img": "content/image/project/kard.png",
+            "main": "https://bajtix.itch.io/kard",
+            "source": "n/a",
+            "type": "game"
+        },
+        {
+            "name": "Keep Them Alive",
+            "desc": "A submission to LD 46, made with REafiki and Dragster. Horribly glitched, but somewhat fun.",
+            "img": "content/image/project/kta.png",
+            "main": "https://bajtix.itch.io/keep-them-alive",
+            "source": "https://github.com/Bajtix/Keep-it-alive",
+            "type": "game"
+        },
+        {
+            "name": "CMDImg",
+            "desc": "Useless tool to display images in console. Can convert images to ASCII, too.",
+            "img": "content/image/project/cmdimg.png",
+            "main": "https://github.com/Bajtix/CmdImg",
+            "source": "https://github.com/Bajtix/CmdImg",
+            "type": "app"
+        }
+    ]
 }
