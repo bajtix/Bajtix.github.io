@@ -210,3 +210,7 @@ a {
     text-align: left;
     font-size: 19px;
 }
+
+.invisible {
+    display: none;
+}

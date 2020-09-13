@@ -4,8 +4,8 @@ const projectItemT = `<div class="project-element hvr-grow">
 <a href='{main}'><img class="project-image" src="{img}" alt=""></img></a>
 <h3 style="display: inline-block;">{name}</h3><img src="{typeicon}" width="20px" height="20px" style="float: left;" />
 <p>{about}</p>
-<a class="highlight-btn" style='position: absolute; right:2px; bottom: 50px;' href='{main}'><img class="highlight-btn2" src='content/image/more.png' width='46px' height='46px'/></a>
-<a class="highlight-btn" style='position: absolute; right:2px; bottom: 2px;' href='{source}'><img class="highlight-btn2" src='content/image/github.png' width='46px' height='46px'/></a>
+<a class="highlight-btn more" style='position: absolute; right:2px; bottom: 50px;' href='{main}'><img class="highlight-btn2" src='content/image/more.png' width='46px' height='46px'/></a>
+<a class="highlight-btn ghub" style='position: absolute; right:2px; bottom: 2px;' href='{source}'><img class="highlight-btn2" src='content/image/github.png' width='46px' height='46px'/></a>
 </div>`;
 const appItemT = `<div class="quicklink">
 <a href="{applink}">
@@ -77,6 +77,9 @@ function loadProjects(tag = "") {
             .replace(/{source}/g, pdata.projects[i].source)
             .replace(/{main}/g, pdata.projects[i].main)
             .replace(/{typeicon}/, getIconFor(pdata.projects[i].type));
+        if (pdata.projects[i].source == "null") {
+            formatted = formatted.replace(/ghub/g, "invisible");
+        }
         if (pdata.projects[i].type == tag || tag == "")
             document.getElementById("projects").innerHTML = document.getElementById("projects").innerHTML + formatted;
     }

@@ -36,7 +36,7 @@
             "desc": "A submission to LD 44, made together with Snajper1212 and Samgus. A terrible platformer, mostly because of the lack of time.",
             "img": "content/image/project/kard.png",
             "main": "https://bajtix.itch.io/kard",
-            "source": "n/a",
+            "source": "null",
             "type": "game"
         },
         {
@@ -58,7 +58,7 @@
         {
             "name": "CC0Importer",
             "desc": "A Unity plugin for directly downloading and importing assets from the popular cc0textures.com website.",
-            "img": "content/image/missing.png",
+            "img": "content/image/project/unity-plugin.png",
             "main": "https://github.com/Bajtix/CC0Textures-Unity-Import/releases/tag/v1.0",
             "source": "https://github.com/Bajtix/CC0Textures-Unity-Import",
             "type": "plugin"
