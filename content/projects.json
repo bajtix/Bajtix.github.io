@@ -1,13 +1,13 @@
 {
+    "example": {
+        "name": "Some Project Name",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut elementum velit. Fusce erat nibh, malesuada quis ultricies nec, mattis at orci. Integer sit amet porttitor nunc.",
+        "img": "content/image/missing.png",
+        "main": "http://youtube.com",
+        "source": "http://google.com",
+        "type": "app"
+    },
     "projects": [{
-            "name": "Some Project Name",
-            "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut elementum velit. Fusce erat nibh, malesuada quis ultricies nec, mattis at orci. Integer sit amet porttitor nunc.",
-            "img": "content/image/missing.png",
-            "main": "http://youtube.com",
-            "source": "http://google.com",
-            "type": "app"
-        },
-        {
             "name": "Time Slicer",
             "desc": "Time Slicer is a game I am currently working on together with WalkanFL. It was created for the Brackeys Game Jam 2020.2, but has been evolving since and updates are coming soon.",
             "img": "content/image/project/time-slicer.png",
@@ -54,6 +54,14 @@
             "main": "https://github.com/Bajtix/CmdImg",
             "source": "https://github.com/Bajtix/CmdImg",
             "type": "app"
+        },
+        {
+            "name": "CC0Importer",
+            "desc": "A Unity plugin for directly downloading and importing assets from the popular cc0textures.com website.",
+            "img": "content/image/missing.png",
+            "main": "https://github.com/Bajtix/CC0Textures-Unity-Import/releases/tag/v1.0",
+            "source": "https://github.com/Bajtix/CC0Textures-Unity-Import",
+            "type": "plugin"
         }
     ]
 }

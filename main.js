@@ -2,12 +2,17 @@ var motds = [];
 
 const projectItemT = `<div class="project-element hvr-grow">
 <a href='{main}'><img class="project-image" src="{img}" alt=""></img></a>
-<h3>{name}</h3>
+<h3 style="display: inline-block;">{name}</h3><img src="{typeicon}" width="20px" height="20px" style="float: left;" />
 <p>{about}</p>
 <a class="highlight-btn" style='position: absolute; right:2px; bottom: 50px;' href='{main}'><img class="highlight-btn2" src='content/image/more.png' width='46px' height='46px'/></a>
 <a class="highlight-btn" style='position: absolute; right:2px; bottom: 2px;' href='{source}'><img class="highlight-btn2" src='content/image/github.png' width='46px' height='46px'/></a>
 </div>`;
-
+const appItemT = `<div class="quicklink">
+<a href="{applink}">
+    <img src="{appicon}">
+    <h4>{appname}</h4>
+</a>
+</div>`;
 
 function readTextFile(file) {
     var rawFile = new XMLHttpRequest();
@@ -35,22 +40,79 @@ function loadMotds() {
     }, 20000);
 }
 
-function loadProjects() {
+function loadProjects(tag = "") {
+
+    document.getElementById("cat-all").classList.remove("highlight-btn-selected");
+    document.getElementById("cat-app").classList.remove("highlight-btn-selected");
+    document.getElementById("cat-game").classList.remove("highlight-btn-selected");
+    document.getElementById("cat-plugin").classList.remove("highlight-btn-selected");
+
+    switch (tag) {
+
+        case "":
+            document.getElementById("cat-all").classList.add("highlight-btn-selected");
+            break;
+        case "app":
+            document.getElementById("cat-app").classList.add("highlight-btn-selected");
+            break;
+        case "game":
+            document.getElementById("cat-game").classList.add("highlight-btn-selected");
+            break;
+        case "plugin":
+            document.getElementById("cat-plugin").classList.add("highlight-btn-selected");
+            break;
+    }
+
+
     projects = readTextFile("content/projects.json");
     pdata = JSON.parse(projects);
 
     console.log(pdata.projects.length);
-
+    document.getElementById("projects").innerHTML = "";
     for (i = 0; i < pdata.projects.length; i++) {
         formatted = projectItemT
             .replace(/{name}/g, pdata.projects[i].name)
             .replace(/{about}/g, pdata.projects[i].desc)
             .replace(/{img}/g, pdata.projects[i].img)
             .replace(/{source}/g, pdata.projects[i].source)
-            .replace(/{main}/g, pdata.projects[i].main);
-        document.getElementById("projects").innerHTML = document.getElementById("projects").innerHTML + formatted;
+            .replace(/{main}/g, pdata.projects[i].main)
+            .replace(/{typeicon}/, getIconFor(pdata.projects[i].type));
+        if (pdata.projects[i].type == tag || tag == "")
+            document.getElementById("projects").innerHTML = document.getElementById("projects").innerHTML + formatted;
     }
 }
+
+function loadApps() {
+
+
+    projects = readTextFile("content/apps.json");
+    pdata = JSON.parse(projects);
+
+    console.log(pdata.projects.length);
+    document.getElementById("quicklinks").innerHTML = "";
+    for (i = 0; i < pdata.projects.length; i++) {
+        formatted = appItemT
+            .replace(/{appname}/g, pdata.projects[i].name)
+            .replace(/{applink}/g, pdata.projects[i].url)
+            .replace(/{appicon}/g, pdata.projects[i].img);
+        document.getElementById("quicklinks").innerHTML = document.getElementById("quicklinks").innerHTML + formatted;
+    }
+}
+
+function getIconFor(type) {
+    if (type == "app")
+        return "content/image/settings.png";
+    else
+    if (type == "plugin")
+        return "content/image/puzzle--v1.png";
+    else
+    if (type == "game")
+        return "content/image/controller.png";
+    else
+        return "content/image/hash.png";
+
+}
+
 
 function nextMotd(w) {
     r = Math.floor(Math.random() * motds.length);

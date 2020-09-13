@@ -48,7 +48,7 @@ body {
 
 #content {
     display: inline-block;
-    text-align: left;
+    text-align: center;
     width: 90%;
 }
 
@@ -69,18 +69,43 @@ body {
     text-align: center;
 }
 
-#projects {
+#projects,
+#quicklinks {
     margin: 10px;
     text-align: center;
     display: inline-block;
     align-items: center;
     width: auto;
     overflow: visible;
+    margin-bottom: 50px;
+}
+
+.quicklink {
+    width: 100px;
+    height: 120px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.quicklink img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.quicklink a {
+    text-decoration: none;
+}
+
+a {
+    color: #DBFFF1;
 }
 
 #footer {
     background-color: #252526;
-    height: 100px;
+    height: 150px;
     margin-top: 40px;
 }
 
@@ -130,7 +155,12 @@ body {
     opacity: 0.4;
 }
 
-.highlight-btn :hover {
+.highlight-btn :hover,
+.highlight-btn-selected {
+    opacity: 2;
+}
+
+.highlight-btn-selected .highlight-btn2 {
     opacity: 2;
 }
 
@@ -143,8 +173,40 @@ body {
     padding-right: 30px;
 }
 
+#footer .credit {
+    width: 300px;
+    color: #525252;
+    height: 20px;
+    margin-top: 10px;
+}
+
 #footer img {
     width: 44px;
     height: 44px;
     box-shadow: none;
+}
+
+#filter {
+    margin-top: 20px;
+}
+
+#filter .highlight-btn:hover,
+.highlight-btn2:hover,
+.hvr-grow:hover {
+    box-shadow: none;
+}
+
+#filter a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#filter img {
+    width: 48px;
+    height: 48px;
+}
+
+#about p {
+    text-align: left;
+    font-size: 19px;
 }

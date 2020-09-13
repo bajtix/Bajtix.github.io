@@ -1,7 +1,7 @@
 //programmer, 3d artist, proffesional twohead
 //i know what i'm doing (i think)
 //it should work now
-//this color sheme is s̶t̶o̶l̶e̶n̶ ̶f̶r̶o̶m̶ based on VS Code's
+//this color scheme is s̶t̶o̶l̶e̶n̶ ̶f̶r̶o̶m̶ based on VS Code's
 //javascript sucks
 //hope it works this time...
 //i have no idea why but otherwise it wouldn't work
@@ -29,3 +29,5 @@
 /*css is cool and all, but have you ever heard of {insert something}?*/
 /*why css no support // :( */
 //if you click this text, it will change
+//this is the first homepage that isn't "temporary"
+//there are some cool projects that are unfinished and can only be found on the older pages.
