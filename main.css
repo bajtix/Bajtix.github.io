@@ -214,3 +214,42 @@ a {
 .invisible {
     display: none;
 }
+
+@media only screen and (max-device-width: 600px) {
+    .project-element {
+        width: 350px;
+        height: 450px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+    }
+    .project-image {
+        width: 350px;
+        height: 280px;
+    }
+    .project-element p {
+        width: 300px;
+        font-size: 14px;
+    }
+    #content {
+        width: 100%;
+        margin: 0px;
+    }
+    #projects {
+        margin: 0px;
+    }
+    #motd {
+        font-size: 15px;
+    }
+    #about {
+        margin: 8px;
+    }
+    #footer a {
+        margin-top: 30px;
+        display: inline-block;
+        width: 22px;
+        height: 44px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
