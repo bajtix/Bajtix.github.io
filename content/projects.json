@@ -62,6 +62,15 @@
             "main": "https://github.com/Bajtix/CC0Textures-Unity-Import/releases/tag/v1.0",
             "source": "https://github.com/Bajtix/CC0Textures-Unity-Import",
             "type": "plugin"
+        },
+        {
+            "name": "Loop The Loop",
+            "desc": "Fly to the beat! Try to avoid rockets and get as far as you can in this rythm-based pixel art game! Made for LD47",
+            "img": "content/image/project/ltl.png",
+            "main": "https://bajtix.itch.io/loop-the-loop",
+            "source": "https://github.com/Bajtix/Stuck-in-a-loop",
+            "type": "game"
         }
+
     ]
 }
