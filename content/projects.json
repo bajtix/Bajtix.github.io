@@ -78,6 +78,14 @@
             "main": "https://bajtix.itch.io/loop-the-loop",
             "source": "https://github.com/Bajtix/Stuck-in-a-loop",
             "type": "game"
+        },
+        {
+            "name": "<span style='font-size:22px;'>The lesser dungeons and nothing else</span>",
+            "desc": "Entry for Blackthornprod GameJam #3. Not working correctly, better version soon.",
+            "img": "content/image/tldne.png",
+            "main": "https://bajtix.itch.io/lesser-dungeons-and-nothing",
+            "source": "null",
+            "type": "game"
         }
 
     ]
