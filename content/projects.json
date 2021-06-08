@@ -9,18 +9,10 @@
     },
     "projects": [{
             "name": "Time Slicer",
-            "desc": "Time Slicer is a game I am currently working on together with WalkanFL. It was created for the Brackeys Game Jam 2020.2, but has been evolving since and updates are coming soon.",
+            "desc": "Time Slicer was a game I am working on together with WalkanFL. It was created for the Brackeys Game Jam 2020.2, but has been evolving since and updates are coming maybe, never.",
             "img": "content/image/project/time-slicer.png",
             "main": "https://bajtix.itch.io/time-slicer",
             "source": "https://github.com/Bajtix/brackeysJam2020.2",
-            "type": "game"
-        },
-        {
-            "name": "????????",
-            "desc": "98776",
-            "img": "content/image/missing.png",
-            "main": "https://bajtix1.000webhostapp.com",
-            "source": "null",
             "type": "game"
         },
         {
@@ -86,7 +78,40 @@
             "main": "https://bajtix.itch.io/lesser-dungeons-and-nothing",
             "source": "null",
             "type": "game"
+        },
+        {
+            "name": "The new rat king",
+            "desc": "Another game jam game ",
+            "img": "https://img.itch.zone/aW1nLzU3OTA0NzEucG5n/315x250%23c/qM80YS.png",
+            "main": "https://bajtix.itch.io/the-new-rat-king",
+            "source": "https://github.com/FlyLamb/DeeperAndDeeper",
+            "type": "game"
+        },
+        {
+            "name": "Some Unity Scripts",
+            "desc": "Just some scrips you can use, no amogus here.",
+            "img": "content/image/project/sus.png",
+            "main": "https://github.com/FlyLamb/SomeUnityScripts",
+            "source": "https://github.com/FlyLamb/SomeUnityScripts",
+            "type": "plugin"
+        },
+        {
+            "name": "Lambworks Framework",
+            "desc": "A framework for different stuff.",
+            "img": "content/image/project/lambworks.png",
+            "main": "https://github.com/FlyLamb/LambWorks-Unity",
+            "source": "https://github.com/FlyLamb/LambWorks-Unity",
+            "type": "plugin"
+        },
+        {
+            "name": "Combined Gunforce",
+            "desc": "A glitchy, unfinished game I made for Brackeys Game Jam. Still, kinda proud of how polishded SOME of the stuff is.",
+            "img": "https://img.itch.zone/aW1nLzUyNzI2ODgucG5n/347x500/bLkp4a.png",
+            "main": "https://bajtix.itch.io/combined-gunforce",
+            "source": "null",
+            "type": "game"
         }
+
 
     ]
 }
