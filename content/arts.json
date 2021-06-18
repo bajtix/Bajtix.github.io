@@ -1,0 +1,20 @@
+{
+    "template": {
+        "date": "date?",
+        "html": "",
+        "type": "3d|2d|music|other"
+    },
+    "arts": [{
+            "date": "18-06-21",
+            "title": "Factory Concept Render",
+            "html": "<img src='/content/art/factory-concept-render.jpg'/> <br> <p>Made as a concept art of a game level</p>",
+            "type": "3d"
+        },
+        {
+            "date": "29-04-21",
+            "title": "Old TVs Scene",
+            "html": "<img src='/content/art/old-tvs.jpg'/> <br> <p>This one serves as a 'Be Right Back' screen for my twitch streams.</p>",
+            "type": "3d"
+        }
+    ]
+}

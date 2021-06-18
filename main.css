@@ -109,6 +109,37 @@ a {
     margin-top: 40px;
 }
 
+.art-element {
+    width: 700px;
+    display: inline-block;
+    background-color: #252526;
+    text-align: left;
+    margin: 7px;
+    padding: 5px;
+}
+
+.art-element-content {
+    padding-bottom: 5px;
+}
+
+.art-element h2 {
+    font-size: xx-large;
+}
+
+.art-element h3 {
+    font-size: large;
+    color: #525252;
+}
+
+.art-element-content img {
+    border-radius: 10px;
+    max-width: 700px;
+}
+
+.art-element-content p {
+    text-align: center;
+}
+
 .project-element {
     width: 500px;
     height: 500px;
@@ -199,6 +230,28 @@ a {
 #filter a {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+#qmenu {
+    background-color: #252526;
+    padding-top: 10px;
+    /*min-height: 4vh;*/
+    margin-bottom: 20px;
+}
+
+.navbutton {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: larger;
+    min-width: 250px;
+    height: 3vh;
+    padding: 10px;
+    border-bottom: solid 5px #525252;
+    text-decoration: none;
+}
+
+.navbutton:hover {
+    background-color: #525252;
 }
 
 #filter img {

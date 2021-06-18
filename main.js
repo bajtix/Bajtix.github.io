@@ -14,6 +14,14 @@ const appItemT = `<div class="quicklink">
 </a>
 </div>`;
 
+const artItemT = `<div class="art-element">
+<h2>{arttitle}</h2>
+<h3>{arttype} &middot {artdate}</h3>
+<div class="art-element-content">
+{arthtml}
+</div>
+</div>`;
+
 function readTextFile(file) {
     var rawFile = new XMLHttpRequest();
     var allText;
@@ -33,7 +41,7 @@ function readTextFile(file) {
 
 function loadMotds() {
     console.log("Requesting motd file...");
-    motdlist = readTextFile("content/motd.txt");
+    motdlist = readTextFile("/content/motd.txt");
     motds = motdlist.split('\n');
     setInterval(function() {
         nextMotd(50);
@@ -64,7 +72,7 @@ function loadProjects(tag = "") {
     }
 
 
-    projects = readTextFile("content/projects.json");
+    projects = readTextFile("/content/projects.json");
     pdata = JSON.parse(projects);
 
     console.log(pdata.projects.length);
@@ -85,10 +93,26 @@ function loadProjects(tag = "") {
     }
 }
 
+function loadArt() {
+    arts = readTextFile("/content/arts.json");
+    pdata = JSON.parse(arts);
+
+    console.log(pdata.arts.length);
+    document.getElementById("art").innerHTML = "";
+    for (i = 0; i < pdata.arts.length; i++) {
+        formatted = artItemT
+            .replace(/{arttitle}/g, pdata.arts[i].title)
+            .replace(/{arttype}/g, pdata.arts[i].type)
+            .replace(/{arthtml}/g, pdata.arts[i].html)
+            .replace(/{artdate}/g, pdata.arts[i].date);
+        document.getElementById("art").innerHTML = document.getElementById("art").innerHTML + formatted;
+    }
+}
+
 function loadApps() {
 
 
-    projects = readTextFile("content/apps.json");
+    projects = readTextFile("/content/apps.json");
     pdata = JSON.parse(projects);
 
     console.log(pdata.projects.length);
@@ -104,15 +128,15 @@ function loadApps() {
 
 function getIconFor(type) {
     if (type == "app")
-        return "content/image/settings.png";
+        return "/content/image/settings.png";
     else
     if (type == "plugin")
-        return "content/image/puzzle--v1.png";
+        return "/content/image/puzzle--v1.png";
     else
     if (type == "game")
-        return "content/image/controller.png";
+        return "/content/image/controller.png";
     else
-        return "content/image/hash.png";
+        return "/content/image/hash.png";
 
 }
 

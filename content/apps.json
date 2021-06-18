@@ -2,12 +2,12 @@
     "projects": [{
             "name": "Older Homepage",
             "url": "old/",
-            "img": "content/image/app/old-home.png"
+            "img": "/content/image/app/old-home.png"
         },
         {
             "name": "SimpleHTML",
             "url": "http://bajtix.github.io/simplehtml",
-            "img": "content/image/project/simplehtml.png"
+            "img": "/content/image/project/simplehtml.png"
         }
     ]
 }

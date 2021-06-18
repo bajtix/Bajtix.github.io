@@ -1,1 +1,1 @@
-robocopy .\ C:\xampp\htdocs\bjtixSite /E
+robocopy .\ C:\xampp\htdocs\ /E

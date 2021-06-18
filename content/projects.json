@@ -2,7 +2,7 @@
     "example": {
         "name": "Some Project Name",
         "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ut elementum velit. Fusce erat nibh, malesuada quis ultricies nec, mattis at orci. Integer sit amet porttitor nunc.",
-        "img": "content/image/missing.png",
+        "img": "/content/image/missing.png",
         "main": "http://youtube.com",
         "source": "http://google.com",
         "type": "app"
@@ -10,7 +10,7 @@
     "projects": [{
             "name": "Time Slicer",
             "desc": "Time Slicer was a game I am working on together with WalkanFL. It was created for the Brackeys Game Jam 2020.2, but has been evolving since and updates are coming maybe, never.",
-            "img": "content/image/project/time-slicer.png",
+            "img": "/content/image/project/time-slicer.png",
             "main": "https://bajtix.itch.io/time-slicer",
             "source": "https://github.com/Bajtix/brackeysJam2020.2",
             "type": "game"
@@ -18,7 +18,7 @@
         {
             "name": "SimpleHTML",
             "desc": "A small web project written in JS. It's goal was to create a simple HTML editor with live preview, ideal for begginners. It includes: Live preview, Theme customization (code) and Syntax Highlighting",
-            "img": "content/image/project/simplehtml.png",
+            "img": "/content/image/project/simplehtml.png",
             "main": "http://bajtix.github.io/simplehtml",
             "source": "https://github.com/Bajtix/brackeysJam2020.2",
             "type": "app"
@@ -26,7 +26,7 @@
         {
             "name": "The Starving Monk",
             "desc": "My first GameJam submission, ever. Made for LD 43.",
-            "img": "content/image/project/starving-monk.png",
+            "img": "/content/image/project/starving-monk.png",
             "main": "https://bajtix.itch.io/a-starving-monk",
             "source": "https://github.com/Bajtix/starving-monk",
             "type": "game"
@@ -34,7 +34,7 @@
         {
             "name": "KARD",
             "desc": "A submission to LD 44, made together with Snajper1212 and Samgus. A terrible platformer, mostly because of the lack of time.",
-            "img": "content/image/project/kard.png",
+            "img": "/content/image/project/kard.png",
             "main": "https://bajtix.itch.io/kard",
             "source": "null",
             "type": "game"
@@ -42,7 +42,7 @@
         {
             "name": "Keep Them Alive",
             "desc": "A submission to LD 46, made with REafiki and Dragster. Horribly glitched, but somewhat fun.",
-            "img": "content/image/project/kta.png",
+            "img": "/content/image/project/kta.png",
             "main": "https://bajtix.itch.io/keep-them-alive",
             "source": "https://github.com/Bajtix/Keep-it-alive",
             "type": "game"
@@ -50,7 +50,7 @@
         {
             "name": "CMDImg",
             "desc": "Useless tool to display images in console. Can convert images to ASCII, too.",
-            "img": "content/image/project/cmdimg.png",
+            "img": "/content/image/project/cmdimg.png",
             "main": "https://github.com/Bajtix/CmdImg",
             "source": "https://github.com/Bajtix/CmdImg",
             "type": "app"
@@ -58,7 +58,7 @@
         {
             "name": "CC0Importer",
             "desc": "A Unity plugin for directly downloading and importing assets from the popular cc0textures.com website.",
-            "img": "content/image/project/unity-plugin.png",
+            "img": "/content/image/project/unity-plugin.png",
             "main": "https://github.com/Bajtix/CC0Textures-Unity-Import/releases/tag/v1.0",
             "source": "https://github.com/Bajtix/CC0Textures-Unity-Import",
             "type": "plugin"
@@ -66,7 +66,7 @@
         {
             "name": "Loop The Loop",
             "desc": "Fly to the beat! Try to avoid rockets and get as far as you can in this rythm-based pixel art game! Made for LD47",
-            "img": "content/image/project/ltl.png",
+            "img": "/content/image/project/ltl.png",
             "main": "https://bajtix.itch.io/loop-the-loop",
             "source": "https://github.com/Bajtix/Stuck-in-a-loop",
             "type": "game"
@@ -74,7 +74,7 @@
         {
             "name": "<span style='font-size:22px;'>The lesser dungeons and nothing else</span>",
             "desc": "Entry for Blackthornprod GameJam #3. Not working correctly, better version soon.",
-            "img": "content/image/tldne.png",
+            "img": "/content/image/tldne.png",
             "main": "https://bajtix.itch.io/lesser-dungeons-and-nothing",
             "source": "null",
             "type": "game"
@@ -90,7 +90,7 @@
         {
             "name": "Some Unity Scripts",
             "desc": "Just some scrips you can use, no amogus here.",
-            "img": "content/image/project/sus.png",
+            "img": "/content/image/project/sus.png",
             "main": "https://github.com/FlyLamb/SomeUnityScripts",
             "source": "https://github.com/FlyLamb/SomeUnityScripts",
             "type": "plugin"
@@ -98,7 +98,7 @@
         {
             "name": "Lambworks Framework",
             "desc": "A framework for different stuff.",
-            "img": "content/image/project/lambworks.png",
+            "img": "/content/image/project/lambworks.png",
             "main": "https://github.com/FlyLamb/LambWorks-Unity",
             "source": "https://github.com/FlyLamb/LambWorks-Unity",
             "type": "plugin"
