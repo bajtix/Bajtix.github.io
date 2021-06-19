@@ -110,7 +110,7 @@ a {
 }
 
 .art-element {
-    width: 700px;
+    max-width: 36vw;
     display: inline-block;
     background-color: #252526;
     text-align: left;
@@ -133,7 +133,7 @@ a {
 
 .art-element-content img {
     border-radius: 10px;
-    max-width: 700px;
+    max-width: 35vw;
 }
 
 .art-element-content p {
@@ -269,6 +269,13 @@ a {
 }
 
 @media only screen and (max-device-width: 600px) {
+    .art-element {
+        max-width: 90vw;
+        display: inline-block;
+    }
+    .art-element-content img {
+        max-width: 90vw;
+    }
     .project-element {
         width: 350px;
         height: 450px;
@@ -304,5 +311,11 @@ a {
         height: 44px;
         padding-left: 30px;
         padding-right: 30px;
+    }
+    .navbutton {
+        min-width: 150px;
+        padding: 10px;
+        border-bottom: solid 5px #525252;
+        text-decoration: none;
     }
 }
