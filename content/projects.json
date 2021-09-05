@@ -16,6 +16,14 @@
             "type": "game"
         },
         {
+                "name": "TA: PS",
+                "desc": "chop chop sword pistol pew pew boing boom ",
+                "img": "/content/image/project/ta-ps.png",
+                "main": "https://bajtix.itch.io/ta-ps",
+                "source": "https://github.com/Bajtix/brackeysgamejam2021.2",
+                "type": "game"
+        },
+        {
             "name": "SimpleHTML",
             "desc": "A small web project written in JS. It's goal was to create a simple HTML editor with live preview, ideal for begginners. It includes: Live preview, Theme customization (code) and Syntax Highlighting",
             "img": "/content/image/project/simplehtml.png",
