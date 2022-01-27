@@ -7,12 +7,37 @@
         "source": "http://google.com",
         "type": "app"
     },
-    "projects": [{
+    "projects": [
+        {
+            "name": "Acini",
+            "desc": "its acini its fun i promise just fucking play it",
+            "img": "https://img.itch.zone/aW1nLzc1OTE1ODUucG5n/315x250%23c/21oy0E.png",
+            "main": "https://bajtix.itch.io/acini",
+            "source": "https://github.com/Bajtix/acini",
+            "type": "game"
+        },
+        {
+            "name": "Karate",
+            "desc": "A Librus client for android",
+            "img": "https://raw.githubusercontent.com/Bajtix/Karate/master/Karate/Assets/karate_primary_logo.svg",
+            "main": "https://github.com/Bajtix/Karate",
+            "source": "https://github.com/Bajtix/Karate",
+            "type": "app"
+        },
+        {
             "name": "Monocykl",
             "desc": "Monocykl is my entry for LD49. Made in 5 hours to fit the theme \"Unstable\".",
             "img": "/content/image/project/monocykl.png",
             "main": "https://bajtix.itch.io/monocykl",
             "source": "https://github.com/Bajtix/Unstable",
+            "type": "game"
+        },
+        {
+            "name": "TA: PS",
+            "desc": "chop chop sword pistol pew pew boing boom ",
+            "img": "/content/image/project/ta-ps.jpg",
+            "main": "https://bajtix.itch.io/ta-ps",
+            "source": "https://github.com/Bajtix/brackeysgamejam2021.2",
             "type": "game"
         },
         {
@@ -22,14 +47,6 @@
             "main": "https://bajtix.itch.io/time-slicer",
             "source": "https://github.com/Bajtix/brackeysJam2020.2",
             "type": "game"
-        },
-        {
-                "name": "TA: PS",
-                "desc": "chop chop sword pistol pew pew boing boom ",
-                "img": "/content/image/project/ta-ps.jpg",
-                "main": "https://bajtix.itch.io/ta-ps",
-                "source": "https://github.com/Bajtix/brackeysgamejam2021.2",
-                "type": "game"
         },
         {
             "name": "SimpleHTML",
@@ -104,16 +121,16 @@
             "type": "game"
         },
         {
-            "name": "Some Unity Scripts",
-            "desc": "Just some scrips you can use, no amogus here.",
+            "name": "random-scripts",
+            "desc": "Just some scrips you can use, used to be called SomeUnityScripts.",
             "img": "/content/image/project/sus.png",
-            "main": "https://github.com/FlyLamb/SomeUnityScripts",
-            "source": "https://github.com/FlyLamb/SomeUnityScripts",
+            "main": "https://github.com/FlyLamb/random-scripts",
+            "source": "https://github.com/FlyLamb/random-scripts",
             "type": "plugin"
         },
         {
-            "name": "Lambworks Framework",
-            "desc": "A framework for different stuff.",
+            "name": "Lambworks Networking",
+            "desc": "A framework for networking, currently in development",
             "img": "/content/image/project/lambworks.png",
             "main": "https://github.com/FlyLamb/LambWorks-Unity",
             "source": "https://github.com/FlyLamb/LambWorks-Unity",
@@ -127,7 +144,5 @@
             "source": "null",
             "type": "game"
         }
-
-
     ]
 }
