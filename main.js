@@ -146,13 +146,19 @@ function nextMotd(w) {
     printText(motds[r], "motd", w);
 }
 
+var lastPrintTimeout = []
+
 function printText(text, elementId, speed) {
     pt = "";
     var c;
+    if(lastPrintTimeout != null)
+        lastPrintTimeout.forEach(element => {
+            clearTimeout(element); // i have no way to test this while writing, so all i can do is pray it works
+        });
     for (c = 0; c < text.length; c++) {
         pt = pt + text[c];
-        setTimeout(function(pt) {
+        lastPrintTimeout.push(setTimeout(function(pt) {
             document.getElementById(elementId).innerHTML = pt;
-        }, speed * c, pt); //cool
+        }, speed * c, pt)); //idiotic
     }
 }
