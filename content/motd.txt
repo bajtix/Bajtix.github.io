@@ -7,7 +7,7 @@
 //hope it works this time...
 //i have no idea why but otherwise it wouldn't work
 //fun fact: i have some unpublished projects that i'm too lazy to finish
-//unpopular opinion: C# > Java. jk i hate both of them equally
+//unpopular opinion: C# > Java. jk i hate both of them equally. java a bit more
 //real chads use C but I'm not a real chad
 //browsers are bloat, just CURL the html and interpret javascript in your head
 //please use Maven and not Gradle, thanks.
@@ -30,10 +30,12 @@
 #where is the ;
 //almost open source
 /*never trust float: left; */
+php is not that bad, really
 /*css is cool and all, but have you ever heard of {insert something}?*/
 /*why css no support // :( */
 //if you click this text, it will change
 //this is the first homepage that isn't "temporary"
 //there are some cool projects that are unfinished and can only be found on the older pages.
 //can i consider myself a very bad artist?
+<!-- i get that you may want to use // in your file somewhere, but what the hell is this, HTML?! -->
 //this was yoinked from https://stackoverflow.com/a/3822913/13208996
