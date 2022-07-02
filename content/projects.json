@@ -11,7 +11,7 @@
         {
             "name": "Acini",
             "desc": "its acini its fun i promise just fucking play it",
-            "img": "https://img.itch.zone/aW1nLzc1OTE1ODUucG5n/315x250%23c/21oy0E.webp",
+            "img": "https://img.itch.zone/aW1nLzc1OTE1ODUucG5n/315x250%23c/21oy0E.png",
             "main": "https://bajtix.itch.io/acini",
             "source": "https://github.com/Bajtix/acini",
             "type": "game"
@@ -35,7 +35,7 @@
         {
             "name": "TA: PS",
             "desc": "chop chop sword pistol pew pew boing boom ",
-            "img": "/content/image/project/ta-ps.jpg",
+            "img": "/content/image/project/ta-ps.webp",
             "main": "https://bajtix.itch.io/ta-ps",
             "source": "https://github.com/Bajtix/brackeysgamejam2021.2",
             "type": "game"
