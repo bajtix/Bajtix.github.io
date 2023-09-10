@@ -2,19 +2,32 @@
     "template": {
         "date": "date?",
         "html": "",
-        "type": "3d|2d|music|other"
+        "type": "render|model|2d|music|photo|design|other"
     },
-    "arts": [{
+    "arts": [
+        {
             "date": "18-06-21",
             "title": "Factory Concept Render",
             "html": "<img src='/content/art/factory-concept-render.jpg'/> <br> <p>Concept art of a game level</p>",
-            "type": "3d"
+            "type": "render"
         },
         {
             "date": "29-04-21",
             "title": "Old TVs Scene",
             "html": "<img src='/content/art/old-tvs.jpg'/> <br> <p>This one serves as a 'Be Right Back' screen for my twitch streams.</p>",
-            "type": "3d"
+            "type": "render"
+        },
+        {
+            "date": "19-03-22",
+            "title": "Андрей Губин",
+            "html": "<img src='/content/art/gubin.png'/> <br> <p>just a quick sketch.</p>",
+            "type": "2d"
+        },
+        {
+            "date": "2022-ongoing",
+            "title": "Urban Planning Project",
+            "html": "<div style='max-height: 500px; flex-direction: column; overflow: scroll;'> <img src='/content/art/urban-planning-project/P1000557.jpg'/> <img src='/content/art/urban-planning-project/P1034788.jpg'/> <img src='/content/art/urban-planning-project/P1023826.jpg'/> </div> <audio controls> <source src='/content/art/urban-planning-project/Busy Morning Road - Longer.mp3' /> </audio> <br> <p>UPP is a documentary project I am working on. It consists of a documentary short film, a photo collection and an EP!</p>",
+            "type": "other"
         }
     ]
 }

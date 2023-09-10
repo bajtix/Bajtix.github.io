@@ -9,6 +9,14 @@
     },
     "projects": [
         {
+            "name": "DailyNihongo",
+            "desc": "a japanese vocab learning site",
+            "img": "https://github.com/Bajtix/DailyNihongo/raw/master/github/amai-desktop.png",
+            "main": "http://lunchbox.bajtix.xyz/projects/dailynihongo/",
+            "source": "https://github.com/Bajtix/DailyNihongo",
+            "type": "app"
+        },
+        {
             "name": "Acini",
             "desc": "its acini its fun i promise just fucking play it",
             "img": "https://img.itch.zone/aW1nLzc1OTE1ODUucG5n/315x250%23c/21oy0E.png",
