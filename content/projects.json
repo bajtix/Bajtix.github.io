@@ -17,6 +17,14 @@
             "type": "app"
         },
         {
+            "name": "filemirror",
+            "desc": "A file indexer written in PHP",
+            "img": "https://raw.githubusercontent.com/Bajtix/php-filemirror/master/graphics/filemirror-small.svg",
+            "main": "https://github.com/Bajtix/php-filemirror/",
+            "source": "https://github.com/Bajtix/php-filemirror/",
+            "type": "app"
+        },
+        {
             "name": "Acini",
             "desc": "its acini its fun i promise just fucking play it",
             "img": "https://img.itch.zone/aW1nLzc1OTE1ODUucG5n/315x250%23c/21oy0E.png",
