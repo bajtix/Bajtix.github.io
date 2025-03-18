@@ -116,6 +116,8 @@ a {
     text-align: left;
     margin: 7px;
     padding: 5px;
+    border-radius: 15px;
+
 }
 
 .art-element-content {
@@ -148,6 +150,7 @@ a {
     background-color: #252526;
     text-align: left;
     margin: 7px;
+    border-radius: 15px;
 }
 
 .project-element h3 {
@@ -161,12 +164,15 @@ a {
 .project-element p {
     width: 420px;
     font-size: 14px;
+    padding: 2px;
 }
 
 .project-image {
     width: 500px;
     height: 400px;
     margin-left: -5px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 
 #motd {
@@ -273,9 +279,11 @@ a {
         max-width: 90vw;
         display: inline-block;
     }
+
     .art-element-content img {
         max-width: 90vw;
     }
+
     .project-element {
         width: 350px;
         height: 450px;
@@ -283,27 +291,34 @@ a {
         margin-right: 0px;
         padding-left: 0px;
     }
+
     .project-image {
         width: 350px;
         height: 280px;
     }
+
     .project-element p {
         width: 300px;
         font-size: 14px;
     }
+
     #content {
         width: 100%;
         margin: 0px;
     }
+
     #projects {
         margin: 0px;
     }
+
     #motd {
         font-size: 15px;
     }
+
     #about {
         margin: 8px;
     }
+
     #footer a {
         margin-top: 30px;
         display: inline-block;
@@ -312,6 +327,7 @@ a {
         padding-left: 30px;
         padding-right: 30px;
     }
+
     .navbutton {
         min-width: 150px;
         padding: 10px;
