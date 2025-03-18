@@ -27,7 +27,7 @@
         {
             "name": "DailyNihongo",
             "desc": "a japanese vocab learning site",
-            "img": "https://github.com/Bajtix/DailyNihongo/raw/master/github/amai-desktop.png",
+            "img": "/content/image/project/dn.webp",
             "main": "http://dn.bajtix.xyz/",
             "source": "https://github.com/bajtix/DailyNihongo",
             "type": "app"
