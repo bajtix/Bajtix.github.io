@@ -9,19 +9,35 @@
     },
     "projects": [
         {
+            "name": "lines-daw",
+            "desc": "Lines is a toy DAW - a (WIP) music production tool designed to emulate a limited hardware workstation, writen in C++",
+            "img": "/content/image/project/lines.webp",
+            "main": "https://github.com/bajtix/lines-daw",
+            "source": "https://github.com/bajtix/lines-daw",
+            "type": "game"
+        },
+        {
+            "name": "Heilbronner Kreuz",
+            "desc": "Heilbronner Kreuz is a tiny horror game created for the Austrian Cultural Forum's 2024 Game Jam with a 9 person team of awesome people.",
+            "img": "/content/image/project/hkreuz.webp",
+            "main": "https://bajtix.itch.io/heibronner-kreuz",
+            "source": "https://github.com/bajtix/culture-jam-austria",
+            "type": "game"
+        },
+        {
             "name": "DailyNihongo",
             "desc": "a japanese vocab learning site",
             "img": "https://github.com/Bajtix/DailyNihongo/raw/master/github/amai-desktop.png",
-            "main": "http://lunchbox.bajtix.xyz/projects/dailynihongo/",
-            "source": "https://github.com/Bajtix/DailyNihongo",
+            "main": "http://dn.bajtix.xyz/",
+            "source": "https://github.com/bajtix/DailyNihongo",
             "type": "app"
         },
         {
             "name": "filemirror",
             "desc": "A file indexer written in PHP",
             "img": "https://raw.githubusercontent.com/Bajtix/php-filemirror/master/graphics/filemirror-small.svg",
-            "main": "https://github.com/Bajtix/php-filemirror/",
-            "source": "https://github.com/Bajtix/php-filemirror/",
+            "main": "https://github.com/bajtix/php-filemirror/",
+            "source": "https://github.com/bajtix/php-filemirror/",
             "type": "app"
         },
         {
@@ -46,6 +62,14 @@
             "img": "/content/image/project/monocykl.webp",
             "main": "https://bajtix.itch.io/monocykl",
             "source": "https://github.com/Bajtix/Unstable",
+            "type": "game"
+        },
+        {
+            "name": "BitSurvival",
+            "desc": "A tiny (unfinished) Java survival game based on a custom fork of Processing used as a standalone library.",
+            "img": "/content/image/project/bits.webp",
+            "main": "https://github.com/bajtix/BitSurvival",
+            "source": "https://github.com/bajtix/BitSurvival",
             "type": "game"
         },
         {
